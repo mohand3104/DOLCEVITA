@@ -167,6 +167,7 @@ font-weight: 600;
 transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
 overflow: hidden;
 margin:  0  auto;
+  padding-right:10px;
 
 left: 37%; 
 }
