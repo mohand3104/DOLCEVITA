@@ -206,9 +206,8 @@ footer {
 }
 
 #imgitalien{
-float: right;
-margin-top: -275px;
-margin-right:50px;
+display: block;
+  margin: 0 auto;
 border-radius:20px;
 width: 400px;
 height: 300px;
