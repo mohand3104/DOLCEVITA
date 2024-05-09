@@ -1,0 +1,204 @@
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  margin: 0px;
+  font-family: "italiana", sans-serif;
+  background-image:url("fond.jpeg");
+  background-size: 100%;
+  
+}
+
+.image3{
+  width: 100%;
+}
+
+#dolce {
+  float: left;
+  margin-top: -20px;
+}
+header{
+  margin-top: 0px;
+  height: 100px;
+  background-color: #FAF8EB;
+
+}
+
+.head{
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: "italiana", sans-serif;
+  float: right;
+  margin-right: 250px; 
+  margin-top: -30px;
+  ;
+}
+
+@media only screen and (max-width: 600px) {
+  button {
+      font-size: 20px; 
+      margin-right: 5px; 
+  }
+}
+
+.head::before {
+  margin-left: auto;
+}
+
+.head::after,
+.head::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.head:hover::after,
+.head:hover::before {
+  width: 100%;
+}
+
+h2{
+  font-family: "Italiana", sans-serif;
+  font-size: 50px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  font-family: 'Italiana', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+#email,
+.container form textarea {
+  
+  font-family: 'Italic', sans-serif;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;  
+}
+#mail{
+  font-size: 16px;
+}
+
+
+#bttn {
+  font-family: 'Italiana', sans-serif;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 150px;
+}
+
+#bttn:hover {
+  background-color: #d9392e;
+}
+#mess{
+margin-left: 10px;
+}
+
+#message{
+margin-left:80px;
+margin-top: 10px;
+}
+
+#bttn:hover {
+  background-color: #d32f2f;
+}
+.restaurant-image
+{
+display: block;
+margin: auto;
+}
+
+footer {
+background-color: #FAF8EB;
+color: black;
+padding: 20px;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+margin-top: 100px;
+}
+
+.footer-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.footer-content p {
+font-size: 50px;
+margin-bottom: 10px;
+}
+
+.footer-content ul {
+list-style-type: none;
+padding: 0;
+} 
+
+.footer-content ul li {
+margin-bottom: 5px;
+}
+
+.social-icons {
+margin-top: 20px;
+}
+
+.social-icons a {
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-icons a img {
+width: 30px;
+height: 30px;
+}
+
+#map {
+ margin-left:450px;
+}
+h1{
+  font-family: "Italiana", sans-serif;
+  font-size: 50px;
+  margin-left: 450px;
+  color:rgb(218, 60, 32);
+}

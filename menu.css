@@ -1,0 +1,464 @@
+body{
+  margin: 0px;
+  font-family: "italiana", sans-serif;
+  background-image:url("image3.png");
+  background-size: 100%;
+  text-align: center;
+}
+
+.image3{
+  width: 100%;
+}
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#dolce {
+  float: left;
+  margin-top: -20px;
+}
+header{
+  background-color: #FAF8EB;
+  margin-top: 0px;
+  height: 100px;
+}
+
+#contact {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: "italiana", sans-serif;
+  float: right;
+  margin-right: 250px; 
+  margin-top: -50px;
+}
+
+#contact::before {
+  margin-left: auto;
+}
+
+#contact::after,
+#contact::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+#contact:hover::after,
+#contact:hover::before {
+  width: 100%;
+}
+#menu {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: "italiana", sans-serif;
+  float: right;
+  margin-right: 250px; 
+  margin-top: -50px;
+}
+
+#menu::before {
+  margin-left: auto;
+}
+
+#menu::after,
+#menu::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+#menu:hover::after,
+#menu:hover::before {
+  width: 100%;
+}
+#acceuil {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: "italiana", sans-serif;
+  float: right;
+  margin-right: 250px; 
+  margin-top: -50px;
+}
+
+#acceuil::before {
+  margin-left: auto;
+}
+
+#acceuil::after,
+#acceuil::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+#acceuil:hover::after,
+#acceuil:hover::before {
+  width: 100%;
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+}
+h2{
+  text-align: center;
+  font-size:50px ;
+}
+h3{
+  font-size:35px ;  
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+
+#bttn {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn::before{
+ font-size: 1.5em;
+  content: '13€ ';
+}
+#bttn:hover::before{
+  content: '';
+}
+
+#bttn:hover::after {
+   content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+  
+  
+}
+
+
+#Plat1{
+  margin-left: 500px;
+  margin-top: 5px;
+}
+#bttn1 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn1::before{
+  font-size: 1.5em;
+  content: '15€ ';
+  
+}
+#bttn1:hover::before{
+  content: '';
+}
+
+#bttn1:hover::after {
+  content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+}
+#Plat2{
+  margin-left: 500px;
+}
+#bttn2 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn2::before{
+font-size: 1.5em;
+  content: '12€ ';
+
+}
+#bttn2:hover::before{
+  content: '';
+}
+
+#bttn2:hover::after {
+  
+
+content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+
+
+  
+}
+#Plat3{
+  margin-top: 10px;
+}
+#bttn3 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn3::before{
+     font-size: 1.5em;
+  content: '25€ ';
+}
+#bttn3:hover::before{
+  content: '';
+}
+
+#bttn3:hover::after {
+
+  content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+}
+#bttn4 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn4::before{
+ font-size: 1.5em;
+  content: '27€ ';
+}
+#bttn4:hover::before{
+  content: '';
+}
+
+#bttn4:hover::after {
+   content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+  
+}
+#bttn5 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn5::before{
+   font-size: 1.5em;
+  content: '23€ ';
+}
+#bttn5:hover::before{
+  content: '';
+}
+
+#bttn5:hover::after {
+ 
+  
+  content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+}
+#bttn6 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn6::before{
+  font-size: 1.5em;
+  content: '29€ ';
+}
+#bttn6:hover::before{
+  content: '';
+}
+
+#bttn6:hover::after {
+  
+  content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+}
+#bttn7 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn7::before{
+font-size: 1.5em;
+  content: '17€ ';
+}
+#bttn7:hover::before{
+  content: '';
+}
+
+#bttn7:hover::after {
+  
+    content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+}
+#bttn8 {
+  width: 150px;
+  height: 60px;
+  border: 3px solid #D11414;
+  border-radius: 45px;
+  background: white;
+  font-size: 1.3em;
+  font-weight:400;
+  font-family: monospace;
+  margin-top: 15px;
+  margin-right: 350px;
+  margin-left: 20px;
+  
+}
+#bttn8::before{
+font-size: 1.5em;
+  content: '19€ ';
+}
+#bttn8:hover::before{
+  content: '';
+}
+
+#bttn8:hover::after {
+ 
+    content: 'Commander';
+  font-size: 1.2em;
+  font-weight: 550;
+}
+
+#entre1{
+  margin-left: 400px;
+}
+
+#entre2{
+  margin-left: 300px;
+}
+
+footer {
+  background-color: #FAF8EB;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+.footer-content ul li {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.imagee{
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
