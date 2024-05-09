@@ -18,7 +18,13 @@ body{
   float: left;
   margin-top: -20px;
 }
-head {
+header{
+  background-color: #FAF8EB;
+  margin-top: 0px;
+  height: 100px;
+}
+
+.head {
   color: black;
   font-size: 40px;
   border: none;
@@ -29,8 +35,6 @@ head {
   margin-right: 250px; 
   margin-top: -50px;
 }
-
-
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
   .head{
     color: black;
