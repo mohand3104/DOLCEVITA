@@ -26,6 +26,33 @@ header{
 
 }
 
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .head{
+    color: black;
+    font-size: 30px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: "italiana", sans-serif;
+    float: right;
+    margin-right: 100px; 
+    margin-top: -40px;
+}
+}
+
+@media only screen and (min-width: 760px) and (max-width: 900px) {
+  .head{
+    color: black;
+    font-size: 30px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: "italiana", sans-serif;
+    float: right;
+    margin-right: 100px; 
+    margin-top: -40px;
+}
+}
 .head{
   color: black;
   text-decoration: none;
