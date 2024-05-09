@@ -18,11 +18,18 @@ body{
   float: left;
   margin-top: -20px;
 }
-header{
-  background-color: #FAF8EB;
-  margin-top: 0px;
-  height: 100px;
+head {
+  color: black;
+  font-size: 40px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: "italiana", sans-serif;
+  float: right;
+  margin-right: 250px; 
+  margin-top: -50px;
 }
+
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
   .head{
@@ -52,25 +59,12 @@ header{
 }
 }
 
-#contact {
-  color: black;
-  text-decoration: none;
-  font-size: 40px;
-  border: none;
-  background: none;
-  font-weight: 600;
-  font-family: "italiana", sans-serif;
-  float: right;
-  margin-right: 250px; 
-  margin-top: -50px;
-}
-
-#contact::before {
+.head::before {
   margin-left: auto;
 }
 
-#contact::after,
-#contact::before {
+.head::after,
+.head::before {
   content: '';
   width: 0%;
   height: 2px;
@@ -79,70 +73,8 @@ header{
   transition: 0.5s;
 }
 
-#contact:hover::after,
-#contact:hover::before {
-  width: 100%;
-}
-#menu {
-  color: black;
-  text-decoration: none;
-  font-size: 40px;
-  border: none;
-  background: none;
-  font-weight: 600;
-  font-family: "italiana", sans-serif;
-  float: right;
-  margin-right: 250px; 
-  margin-top: -50px;
-}
-
-#menu::before {
-  margin-left: auto;
-}
-
-#menu::after,
-#menu::before {
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  transition: 0.5s;
-}
-
-#menu:hover::after,
-#menu:hover::before {
-  width: 100%;
-}
-#acceuil {
-  color: black;
-  text-decoration: none;
-  font-size: 40px;
-  border: none;
-  background: none;
-  font-weight: 600;
-  font-family: "italiana", sans-serif;
-  float: right;
-  margin-right: 250px; 
-  margin-top: -50px;
-}
-
-#acceuil::before {
-  margin-left: auto;
-}
-
-#acceuil::after,
-#acceuil::before {
-  content: '';
-  width: 0%;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  transition: 0.5s;
-}
-
-#acceuil:hover::after,
-#acceuil:hover::before {
+.head:hover::after,
+.head:hover::before {
   width: 100%;
 }
 h1{
