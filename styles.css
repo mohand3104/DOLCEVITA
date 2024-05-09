@@ -147,7 +147,7 @@ margin-top: 10px;
 }
 .restaurant-image
 {
-display: block;
+display: inline-lock;
 margin: auto;
 }
 
@@ -199,6 +199,6 @@ height: 30px;
 h1{
   font-family: "Italiana", sans-serif;
   font-size: 50px;
-  margin-left: 450px;
+  text-align: center;
   color:rgb(218, 60, 32);
 }
