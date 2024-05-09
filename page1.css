@@ -139,6 +139,7 @@ footer {
   font-weight: 600;
   transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
   overflow: hidden;
+    margin-left: 50px;
 }
 
 
@@ -227,6 +228,9 @@ footer {
   height: 30px;
 }
 
-#ytb{
-  margin-left: 200px;
+.ytb iframe{
+
+    display: block; 
+    margin: 0 auto; 
+ 
 }
